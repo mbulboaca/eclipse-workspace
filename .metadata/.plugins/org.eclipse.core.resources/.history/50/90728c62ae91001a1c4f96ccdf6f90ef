@@ -1,0 +1,16 @@
+package zoo;
+
+public class Lizard extends Animals implements Reptiles, Asia{
+
+	public Lizard(String name, int age) {
+		super(name, age);
+	}
+
+	@Override
+	public void origin() {
+		// TODO Auto-generated method stub
+		
+	}
+
+
+}

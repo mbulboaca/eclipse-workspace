@@ -1,0 +1,15 @@
+package zoo;
+
+public class Parrots extends Animals implements Birds {
+
+	public Parrots(String name, int age) { 
+		super(name, age); 
+	}
+
+	@Override
+	public String toString() {
+		return "Parrots [name=" + name + ", age=" + age + "]";
+	}
+	
+	
+}

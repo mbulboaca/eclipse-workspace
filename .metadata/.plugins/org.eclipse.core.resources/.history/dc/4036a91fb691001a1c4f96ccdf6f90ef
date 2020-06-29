@@ -1,0 +1,21 @@
+package zoo;
+
+public class Penguins extends Animals implements Birds, Asia{
+
+	public Penguins(String name, int age) {
+		super(name, age); 
+	}
+
+	@Override
+	public String toString() {
+		return "Penguins [name=" + name + ", age=" + age + "]";
+	}
+
+	@Override
+	public void origin() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	
+}

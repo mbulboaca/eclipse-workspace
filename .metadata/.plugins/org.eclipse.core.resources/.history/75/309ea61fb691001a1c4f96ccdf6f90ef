@@ -1,0 +1,21 @@
+package zoo;
+
+public class Parrots extends Animals implements Birds, Asia {
+
+	public Parrots(String name, int age) { 
+		super(name, age); 
+	}
+
+	@Override
+	public String toString() {
+		return "Parrots [name=" + name + ", age=" + age + "]";
+	}
+
+	@Override
+	public void origin() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	
+}

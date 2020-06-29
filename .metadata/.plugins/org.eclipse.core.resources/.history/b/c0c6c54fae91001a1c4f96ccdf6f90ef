@@ -1,0 +1,10 @@
+package zoo;
+
+public class Lizard extends Animals implements Reptiles{
+
+	public Lizard(String name, int age) {
+		super(name, age);
+	}
+
+
+}

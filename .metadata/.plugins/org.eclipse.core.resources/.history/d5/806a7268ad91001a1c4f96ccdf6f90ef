@@ -1,0 +1,11 @@
+package zoo;
+
+public class Zoo {
+	String name; 
+	int age;
+	public Zoo(String name, int age) {
+		this.name = name;
+		this.age = age;
+	}	
+	
+}

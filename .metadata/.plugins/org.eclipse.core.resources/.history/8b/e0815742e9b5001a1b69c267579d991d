@@ -1,0 +1,31 @@
+package com.test.org;
+
+public class Vehicle {
+
+	private String engine; 
+	private int wheels;
+	private int seats;
+	private int	fuelTank;
+	private String lights;
+	
+	public Vehicle() {
+		this.engine = "petrol";
+		this.wheels = 4;
+		this.seats = 4; 
+		this.fuelTank = 35;
+		this.lights = "LED"; 
+		
+	}
+	public Vehicle(String engine, int wheels, int seats, int fuelTank, String lights) {
+		
+		this.engine = engine;
+		this.wheels = wheels;
+		this.seats = seats;
+		this.fuelTank = fuelTank;
+		this.lights = lights;
+	}
+	
+	
+	
+	
+}

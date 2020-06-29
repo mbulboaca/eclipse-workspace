@@ -1,0 +1,15 @@
+package zoo;
+
+public class Elephants extends Animals implements Mammals {
+
+	public Elephants(String name, int age) {
+		super(name, age);
+	}
+
+	@Override
+	public String toString() {
+		return "Elephants [name=" + name + ", age=" + age + "]";
+	}
+	
+	
+}

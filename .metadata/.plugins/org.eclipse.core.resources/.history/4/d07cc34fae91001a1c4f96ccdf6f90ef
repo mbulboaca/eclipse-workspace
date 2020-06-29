@@ -1,0 +1,10 @@
+package zoo;
+
+public class Penguins extends Animals implements Birds{
+
+	public Penguins(String name, int age) {
+		super(name, age); 
+	}
+
+	
+}

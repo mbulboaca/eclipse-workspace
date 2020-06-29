@@ -1,0 +1,13 @@
+
+public class CityCountryApp {
+
+	public static void main(String[] args) {
+		City a = new City(); 
+		a.name = "Bucuresti"; 
+		a.district = "Ilfov"; 
+		a.noOfPeople = 2000001;				
+		a.country.describe();
+		a.describe();	
+		
+	}	
+}

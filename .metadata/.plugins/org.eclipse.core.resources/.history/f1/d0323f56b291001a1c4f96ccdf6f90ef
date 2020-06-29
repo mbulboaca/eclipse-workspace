@@ -1,0 +1,24 @@
+package zoo;
+
+public class ZooApp {
+
+	public static void main(String[] args) { 
+		
+		Bears b1 = new Bears("Ghiocel", 8); 
+		Crocodiles c1 = new Crocodiles("Dintisor", 69);
+		Elephants e1 = new Elephants("Dolofanu", 22);
+		Lions l1 = new Lions("Printisor", 44);
+		Lizard z1 = new Lizard("Alunecosu", 15); 
+		Parrots p1 = new Parrots("Dick", 4); 
+		Penguins s1 = new Penguins("Spidi", 9); 
+		
+		Animals [] list = {b1, c1, e1, l1, z1, p1, s1}; 
+		Zoo z = new Zoo(list); 
+		z.describeAll();
+		
+		}
+		
+	}
+	
+
+

@@ -1,0 +1,8 @@
+package zoo;
+
+public class Pengunins extends Zoo {
+
+	public Pengunins(String name, int age) { 
+		super(name, age); 
+	}
+}

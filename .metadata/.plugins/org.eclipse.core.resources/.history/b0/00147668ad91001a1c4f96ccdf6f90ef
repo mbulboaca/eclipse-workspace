@@ -1,0 +1,16 @@
+package zoo;
+
+public class Crocodiles extends Zoo {
+
+	public Crocodiles(String name, int age) {
+		super(name, age); 
+		
+	}
+
+	@Override
+	public String toString() {
+		return "Crocodiles [name=" + name + ", age=" + age + "]";
+	}
+	
+	
+}

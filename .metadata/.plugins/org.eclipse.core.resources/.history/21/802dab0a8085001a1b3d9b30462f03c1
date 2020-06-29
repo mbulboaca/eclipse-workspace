@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+public class PeopleReg {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+		Scanner sc1 = new Scanner(System.in);
+
+		System.out.println("Please enter your name: ");
+		String name = sc.nextLine();
+
+		System.out.println("Hello " + name + ", please enter your age: ");
+		String age = sc1.nextLine();
+
+		String[][] oameni = new String[2][2];
+
+		for (int i = 0; i < oameni.length; i++) {
+				
+			for (int j = 0; j < oameni.length; j++) {
+				oameni [i][j] = name;
+				System.out.println(oameni[i][j]);
+			}
+
+		}
+	}
+
+}

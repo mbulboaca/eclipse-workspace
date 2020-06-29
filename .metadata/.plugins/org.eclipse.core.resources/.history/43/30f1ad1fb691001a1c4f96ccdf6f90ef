@@ -1,0 +1,39 @@
+package zoo;
+
+import java.util.Scanner;
+
+public class ZooApp {
+
+	private static String ANIMALS_BEARS = "Bear"; 
+	private static String ANIMALS_CROCODILES = "Crocodile"; 
+	private static String ANIMALS_ELEPHANTS = "Elephant"; 
+	private static String ANIMALS_LIONS = "Lion";
+	private static String ANIMALS_LIZARDS = "Lizard"; 
+	private static String ANIMALS_PARROTS = " Parrot";
+	private static String ANIMALS_PENGUINS = "Penguin"; 
+	public static void main(String[] args) { 
+		Scanner sc = new Scanner(System.in); 
+		
+		Bears b1 = new Bears("Ghiocel", 8); 
+		Crocodiles c1 = new Crocodiles("Dintisor", 69);
+		Elephants e1 = new Elephants("Dolofanu", 22);
+		Lions l1 = new Lions("Printisor", 44);
+		Lizard z1 = new Lizard("Alunecosu", 15); 
+		Parrots p1 = new Parrots("Dick", 4); 
+		Penguins s1 = new Penguins("Spidi", 9); 
+		
+		Animals [] list = {b1, c1, e1, l1, z1, p1, s1}; 
+		while(true) { 
+		System.out.println("What animal you want to display?");
+		String type = sc.nextLine(); 
+		if(type.equalsIgnoreCase("bear")) {
+			System.out.println("Name of the animal: " + b1.name);
+			System.out.println("Type: " + );
+		
+		}
+		}
+	}
+	}
+	
+
+

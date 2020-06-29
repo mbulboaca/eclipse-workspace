@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<commands>
+	<addCategory
+		id="calendar-2.1.0_1592590284368"
+		name="calendar-2.1.0"
+		description="Container with import elements from C:\Users\EMB\eclipse-workspace\CounterApp\calendar-2.1.0.jar"
+		visible="true"
+		open="true"/>
+	<addComponent
+		id="org.zkoss.calendar.api.CalendarEvent_1592590284368"
+		name="CalendarEvent"
+		description="Custom component: org.zkoss.calendar.api.CalendarEvent"
+		visible="true"
+		class="org.zkoss.calendar.api.CalendarEvent"
+		category="calendar-2.1.0_1592590284368"/>
+	<addComponent
+		id="org.zkoss.calendar.api.CalendarModel_1592590284368"
+		name="CalendarModel"
+		description="Custom component: org.zkoss.calendar.api.CalendarModel"
+		visible="true"
+		class="org.zkoss.calendar.api.CalendarModel"
+		category="calendar-2.1.0_1592590284368"/>
+	<addComponent
+		id="org.zkoss.calendar.api.Calendars_1592590284368"
+		name="Calendars"
+		description="Custom component: org.zkoss.calendar.api.Calendars"
+		visible="true"
+		class="org.zkoss.calendar.api.Calendars"
+		category="calendar-2.1.0_1592590284368"/>
+	<addComponent
+		id="org.zkoss.calendar.api.DateFormatter_1592590284368"
+		name="DateFormatter"
+		description="Custom component: org.zkoss.calendar.api.DateFormatter"
+		visible="true"
+		class="org.zkoss.calendar.api.DateFormatter"
+		category="calendar-2.1.0_1592590284368"/>
+	<addComponent
+		id="org.zkoss.calendar.api.EventRender_1592590284368"
+		name="EventRender"
+		description="Custom component: org.zkoss.calendar.api.EventRender"
+		visible="true"
+		class="org.zkoss.calendar.api.EventRender"
+		category="calendar-2.1.0_1592590284368"/>
+	<addComponent
+		id="org.zkoss.calendar.api.RenderContext_1592590284368"
+		name="RenderContext"
+		description="Custom component: org.zkoss.calendar.api.RenderContext"
+		visible="true"
+		class="org.zkoss.calendar.api.RenderContext"
+		category="calendar-2.1.0_1592590284368"/>
+	<addComponent
+		id="org.zkoss.calendar.Calendars_1592590284368"
+		name="Calendars"
+		description="Custom component: org.zkoss.calendar.Calendars"
+		visible="true"
+		class="org.zkoss.calendar.Calendars"
+		category="calendar-2.1.0_1592590284368"/>
+	<addComponent
+		id="org.zkoss.calendar.Calendars$1_1592590284368"
+		name="1"
+		description="Custom component: org.zkoss.calendar.Calendars$1"
+		visible="true"
+		class="org.zkoss.calendar.Calendars$1"
+		category="calendar-2.1.0_1592590284368"/>
+	<addComponent
+		id="org.zkoss.calendar.Calendars$2_1592590284368"
+		name="2"
+		description="Custom component: org.zkoss.calendar.Calendars$2"
+		visible="true"
+		class="org.zkoss.calendar.Calendars$2"
+		category="calendar-2.1.0_1592590284368"/>
+	<addComponent
+		id="org.zkoss.calendar.Calendars$3_1592590284368"
+		name="3"
+		description="Custom component: org.zkoss.calendar.Calendars$3"
+		visible="true"
+		class="org.zkoss.calendar.Calendars$3"
+		category="calendar-2.1.0_1592590284368"/>
+	<addComponent
+		id="org.zkoss.calendar.event.CalendarDataEvent_1592590284368"
+		name="CalendarDataEvent"
+		description="Custom component: org.zkoss.calendar.event.CalendarDataEvent"
+		visible="true"
+		class="org.zkoss.calendar.event.CalendarDataEvent"
+		category="calendar-2.1.0_1592590284368"/>
+	<addComponent
+		id="org.zkoss.calendar.event.CalendarDataListener_1592590284368"
+		name="CalendarDataListener"
+		description="Custom component: org.zkoss.calendar.event.CalendarDataListener"
+		visible="true"
+		class="org.zkoss.calendar.event.CalendarDataListener"
+		category="calendar-2.1.0_1592590284368"/>
+	<addComponent
+		id="org.zkoss.calendar.event.CalendarsEvent_1592590284368"
+		name="CalendarsEvent"
+		description="Custom component: org.zkoss.calendar.event.CalendarsEvent"
+		visible="true"
+		class="org.zkoss.calendar.event.CalendarsEvent"
+		category="calendar-2.1.0_1592590284368"/>
+	<addComponent
+		id="org.zkoss.calendar.impl.AbstractCalendarModel_1592590284368"
+		name="AbstractCalendarModel"
+		description="Custom component: org.zkoss.calendar.impl.AbstractCalendarModel"
+		visible="true"
+		class="org.zkoss.calendar.impl.AbstractCalendarModel"
+		category="calendar-2.1.0_1592590284368"/>
+	<addComponent
+		id="org.zkoss.calendar.impl.SimpleCalendarEvent_1592590284368"
+		name="SimpleCalendarEvent"
+		description="Custom component: org.zkoss.calendar.impl.SimpleCalendarEvent"
+		visible="true"
+		class="org.zkoss.calendar.impl.SimpleCalendarEvent"
+		category="calendar-2.1.0_1592590284368"/>
+	<addComponent
+		id="org.zkoss.calendar.impl.SimpleCalendarModel_1592590284368"
+		name="SimpleCalendarModel"
+		description="Custom component: org.zkoss.calendar.impl.SimpleCalendarModel"
+		visible="true"
+		class="org.zkoss.calendar.impl.SimpleCalendarModel"
+		category="calendar-2.1.0_1592590284368"/>
+	<addComponent
+		id="org.zkoss.calendar.impl.SimpleDateFormatter_1592590284368"
+		name="SimpleDateFormatter"
+		description="Custom component: org.zkoss.calendar.impl.SimpleDateFormatter"
+		visible="true"
+		class="org.zkoss.calendar.impl.SimpleDateFormatter"
+		category="calendar-2.1.0_1592590284368"/>
+	<addComponent
+		id="org.zkoss.calendar.impl.Util_1592590284368"
+		name="Util"
+		description="Custom component: org.zkoss.calendar.impl.Util"
+		visible="true"
+		class="org.zkoss.calendar.impl.Util"
+		category="calendar-2.1.0_1592590284368"/>
+	<addComponent
+		id="org.zkoss.calendar.Version_1592590284368"
+		name="Version"
+		description="Custom component: org.zkoss.calendar.Version"
+		visible="true"
+		class="org.zkoss.calendar.Version"
+		category="calendar-2.1.0_1592590284368"/>
+	<moveCategory
+		id="calendar-2.1.0_1592590284368"
+		nextCategory="org.eclipse.wb.swing.layouts"/>
+	<addComponent
+		id="com.toedter.calendar.JDayChooser_1592590486958"
+		name="JDayChooser"
+		description="Custom component: com.toedter.calendar.JDayChooser"
+		visible="true"
+		class="com.toedter.calendar.JDayChooser"
+		category="org.eclipse.wb.swing.actions"/>
+	<addComponent
+		id="com.toedter.calendar.JMonthChooser_1592590486958"
+		name="JMonthChooser"
+		description="Custom component: com.toedter.calendar.JMonthChooser"
+		visible="true"
+		class="com.toedter.calendar.JMonthChooser"
+		category="org.eclipse.wb.swing.actions"/>
+	<addComponent
+		id="com.toedter.components.JLocaleChooser_1592590486958"
+		name="JLocaleChooser"
+		description="Custom component: com.toedter.components.JLocaleChooser"
+		visible="true"
+		class="com.toedter.components.JLocaleChooser"
+		category="org.eclipse.wb.swing.actions"/>
+	<addComponent
+		id="com.toedter.calendar.JCalendar_1592590486958"
+		name="JCalendar"
+		description="Custom component: com.toedter.calendar.JCalendar"
+		visible="true"
+		class="com.toedter.calendar.JCalendar"
+		category="org.eclipse.wb.swing.actions"/>
+	<addComponent
+		id="com.toedter.calendar.JDateChooser_1592590486958"
+		name="JDateChooser"
+		description="Custom component: com.toedter.calendar.JDateChooser"
+		visible="true"
+		class="com.toedter.calendar.JDateChooser"
+		category="org.eclipse.wb.swing.actions"/>
+	<addComponent
+		id="com.toedter.components.JSpinField_1592590486958"
+		name="JSpinField"
+		description="Custom component: com.toedter.components.JSpinField"
+		visible="true"
+		class="com.toedter.components.JSpinField"
+		category="org.eclipse.wb.swing.actions"/>
+	<addComponent
+		id="com.toedter.calendar.JYearChooser_1592590486958"
+		name="JYearChooser"
+		description="Custom component: com.toedter.calendar.JYearChooser"
+		visible="true"
+		class="com.toedter.calendar.JYearChooser"
+		category="org.eclipse.wb.swing.actions"/>
+	<removeCategory
+		id="calendar-2.1.0_1592590284368"/>
+</commands>

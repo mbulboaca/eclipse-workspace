@@ -1,0 +1,11 @@
+package zoo;
+
+public class Bears extends Zoo {
+
+	public Bears(String name, int age) {
+		super(name, age); 
+		
+	}
+	
+	
+}

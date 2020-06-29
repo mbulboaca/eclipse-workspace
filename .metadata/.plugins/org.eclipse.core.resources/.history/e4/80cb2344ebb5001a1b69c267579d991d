@@ -1,0 +1,11 @@
+import inheritance.Bike;
+
+public class Default {
+
+	public static void main(String[] args) {
+		
+		Bike bike = new Bike("long"); 
+		System.out.println(bike.getHandle());
+		
+	}
+}

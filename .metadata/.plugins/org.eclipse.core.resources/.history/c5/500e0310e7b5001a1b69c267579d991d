@@ -1,0 +1,6 @@
+package inheritance;
+
+public class Bike {
+
+	public String handle; 
+}

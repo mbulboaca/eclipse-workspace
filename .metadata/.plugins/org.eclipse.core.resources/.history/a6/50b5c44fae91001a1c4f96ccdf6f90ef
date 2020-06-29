@@ -1,0 +1,14 @@
+package zoo;
+
+public class Crocodiles extends Animals implements Reptiles, Asia{
+
+	public Crocodiles(String name, int age) {
+		super(name, age); 
+		
+	}
+	public void origin() {
+		System.out.println("This animal is from Asia");
+	}
+	
+	
+}

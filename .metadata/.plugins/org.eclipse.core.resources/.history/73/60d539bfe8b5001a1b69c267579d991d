@@ -1,0 +1,26 @@
+package inheritance;
+
+import com.test.org.Vehicle;
+
+public class Bike extends Vehicle {
+
+	public String handle;
+
+	public Bike() {
+	
+
+	
+	}
+
+	public Bike(String handle) {
+		super();
+		this.handle = handle;
+	}
+
+	public String getHandle() {
+		return handle;
+	}
+	
+	
+	
+}
